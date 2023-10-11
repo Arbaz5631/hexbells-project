@@ -3,26 +3,26 @@ import styles from "./HomeComponent.module.css";
 import ImageCard from "./ImageCard";
 const ImagesData = [
   {
-    img: "/images/product-img1.svg",
-    img2: "/images/product-img2.svg",
+    img: "./images/product-img1.svg",
+    img2: "./images/product-img2.svg",
     name: "Soft Pinch Liquid Blush",
     price: "1200",
   },
   {
-    img: "/images/product-img1.svg",
-    img2: "/images/product-img2.svg",
+    img: "./images/product-img1.svg",
+    img2: "./images/product-img2.svg",
     name: "Soft Pinch Liquid Blush",
     price: "1200",
   },
   {
-    img: "/images/product-img1.svg",
-    img2: "/images/product-img2.svg",
+    img: "./images/product-img1.svg",
+    img2: "./images/product-img2.svg",
     name: "Soft Pinch Liquid Blush",
     price: "1200",
   },
   {
-    img: "/images/product-img1.svg",
-    img2: "/images/product-img2.svg",
+    img: "./images/product-img1.svg",
+    img2: "./images/product-img2.svg",
     name: "Soft Pinch Liquid Blush",
     price: "1200",
   },
@@ -32,7 +32,7 @@ function ProductComponent(props) {
     <div className={styles.productMainDiv}>
       <div className={styles.productLeftDiv}>
         <img
-          img={"/images/category-bg-img.svg"}
+          img={"./images/category-bg-img.svg"}
           className={styles.productLeftBgImg}
         />
         <div className={styles.shopByCategory}>
@@ -64,7 +64,7 @@ function ProductComponent(props) {
             <div className={styles.cartProductDiv}>
               <img
                 className={styles.cartImg}
-                src={"/images/product-img1.svg"}
+                src={"./images/product-img1.svg"}
               />
               <div className={styles.cartProductText}>
                 <p className={styles.cartText}>Eye shadow Stick</p>
@@ -74,7 +74,7 @@ function ProductComponent(props) {
             <div className={styles.cartProductDiv}>
               <img
                 className={styles.cartImg}
-                src={"/images/product-img1.svg"}
+                src={"./images/product-img1.svg"}
               />
               <div className={styles.cartProductText}>
                 <p className={styles.cartText}>Eye shadow Stick</p>
